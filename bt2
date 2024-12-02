@@ -1,0 +1,25 @@
+Loại cấu trúc dữ liệu              Đặc điểm chính                                       Ứng dụng phổ biến
+
+Mảng (Array)                      Dễ dàng truy cập phần tử dựa trên chỉ mục.            Lưu trữ các phần tử dữ liệu trong một khối bộ nhớ liên tục
+
+ 	 
+Danh sách liên kết (LinkedList)   Một chuỗi các phần tử được 
+                                liên kết với nhau thông qua các con trỏ                 Tạo ra các bảng để lựa chọn
+
+ 	 
+Ngăn xếp (Stack)                Cấu trúc dữ liệu truy cập theo nguyên tắc “LIFO”         Sắp xếp chèn , trộn
+                                (Last In, First Out) 
+                                - phần tử vào sau cùng sẽ được lấy ra đầu tiên.
+
+ 	 
+Hàng đợi (Queue)                Cấu trúc truy cập theo nguyên tắc “FIFO”                 
+                                (First In, First Out) - phần tử vào trước 
+                                sẽ được lấy ra đầu tiên.
+
+ 	 
+Cây (Tree)                      Cấu trúc phân cấp với một phần tử gốc và các phần tử con
+
+ 	 
+Đồ thị (Graph)                  Cấu trúc bao gồm các nút (đỉnh) và các cạnh kết nối các nút với nhau.
+
+ 	 

@@ -1,0 +1,20 @@
+
+1. **Lưu trữ danh sách sinh viên theo thứ tự nhập vào**:
+   - **Cấu trúc dữ liệu phù hợp**: **Danh sách (List)**
+   - **Giải thích**: Danh sách trong Python (hoặc array trong các ngôn ngữ khác) là một cấu trúc dữ liệu tuyến tính cho phép thêm các phần tử vào cuối danh sách một cách nhanh chóng. Nó giữ nguyên thứ tự nhập vào, rất thích hợp khi cần lưu trữ các đối tượng (ở đây là sinh viên) theo thứ tự nhất định.
+
+2. **Tìm kiếm nhanh tên một sản phẩm trong danh sách hàng triệu sản phẩm**:
+   - **Cấu trúc dữ liệu phù hợp**: **Bảng băm (Hash Table)**
+   - **Giải thích**: Bảng băm cho phép tra cứu dữ liệu với thời gian trung bình O(1), tức là tìm kiếm nhanh chóng ngay cả khi danh sách có số lượng lớn sản phẩm. Bảng băm sử dụng một hàm băm để ánh xạ các khóa (tên sản phẩm) tới các giá trị (thông tin sản phẩm), giúp tìm kiếm nhanh chóng mà không cần duyệt qua toàn bộ danh sách.
+
+3. **Quản lý danh sách các task công việc cần xử lý theo thứ tự ưu tiên**:
+   - **Cấu trúc dữ liệu phù hợp**: **Hàng đợi ưu tiên (Priority Queue)**
+   - **Giải thích**: Hàng đợi ưu tiên cho phép lưu trữ các phần tử với một mức độ ưu tiên đi kèm. Các phần tử có ưu tiên cao sẽ được xử lý trước, bất kể thứ tự chèn vào. Đây là cấu trúc lý tưởng để quản lý các công việc cần xử lý theo thứ tự ưu tiên, vì nó giúp đảm bảo công việc quan trọng nhất được xử lý trước.
+
+4. **Lưu trữ dữ liệu hệ thống phân cấp như thư mục máy tính**:
+   - **Cấu trúc dữ liệu phù hợp**: **Cây (Tree)**
+   - **Giải thích**: Dữ liệu hệ thống phân cấp (như thư mục và tập tin trên máy tính) có thể được biểu diễn bằng cấu trúc cây, với các thư mục là các nút cha và các tập tin là các nút lá. Cây cho phép tổ chức và tìm kiếm nhanh chóng các phần tử trong hệ thống phân cấp.
+
+5. **Tìm đường đi ngắn nhất giữa 2 điểm trên bản đồ**:
+   - **Cấu trúc dữ liệu phù hợp**: **Đồ thị (Graph)**
+   - **Giải thích**: Bản đồ có thể được mô hình hóa dưới dạng đồ thị, với các điểm (thành phố, giao lộ, v.v.) là các đỉnh và các con đường giữa chúng là các cạnh. Để tìm đường đi ngắn nhất giữa hai điểm, các thuật toán như Dijkstra hoặc A* có thể được áp dụng trên đồ thị, giúp xác định tuyến đường tối ưu dựa trên khoảng cách hoặc chi phí.
